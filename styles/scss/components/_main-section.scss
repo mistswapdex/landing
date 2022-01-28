@@ -1,0 +1,129 @@
+.main-section {
+  min-height: 940px;
+  background: #001118;
+
+  .coin-factory img {
+    width: 517px;
+    height: 508;
+    margin-top: 7rem;
+  }
+
+  ul li:nth-child(3) {
+    border: none;
+  }
+
+  .coin-board {
+    width: 296px;
+    height: 43px;
+    left: calc(50% - 148px);
+    .btn-cool {
+      background-color: $cool-green;
+      width: 155px;
+      height: 38px;
+      margin: 8px 0 8px 119px;
+    }
+
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .desc-price {
+      font-size: 8px;
+      font-family: "Roboto", sans-serif;
+      color: #62d2a2;
+    }
+
+    .price-coin {
+      color: #00181e;
+      font-family: "Inter", sans-serif;
+      font-size: 12px;
+      font-weight: 900;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .coin-board {
+      width: 724px;
+      height: 74px;
+      left: calc(50% - 362px);
+
+      .desc-price {
+        font-size: $desc-price-text;
+        font-family: "Roboto", sans-serif;
+        color: #62d2a2;
+      }
+
+      .price-coin {
+        color: #00181e;
+        font-family: "Inter", sans-serif;
+        font-size: $coin-text;
+        font-weight: 900;
+      }
+    }
+
+    ul {
+      padding: 10px 18px 10px 35px;
+    }
+  }
+  @media (max-width: 1023px) {
+    .coin-factory img {
+      width: 250px;
+    }
+  }
+
+  .main-text {
+    h1 {
+      font-size: 44.5px;
+    }
+
+    p {
+      font-size: 26px;
+      width: 60%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .coin-board {
+      width: 966px;
+      height: 74px;
+
+      left: calc(50% - 483px);
+      top: 25%;
+
+      ul li:nth-child(3) {
+        border-right: 2px solid #e5e5ea;
+      }
+
+      span {
+        font-size: 13px;
+      }
+
+      ul {
+        padding: 10px 18px 10px 35px;
+      }
+
+      .desc-price {
+        font-size: $desc-price-text;
+        font-family: "Roboto", sans-serif;
+        color: #62d2a2;
+      }
+
+      .price-coin {
+        color: #00181e;
+        font-family: "Inter", sans-serif;
+        font-size: $coin-text;
+        font-weight: 900;
+      }
+    }
+
+    .coin-factory img {
+      margin-top: 12rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .main-section {
+    background: linear-gradient(to bottom, #00060c 24%, #001118 30%);
+  }
+}

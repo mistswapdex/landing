@@ -1,0 +1,83 @@
+{
+  "index": {
+    "main_section": {
+      "nav_center": ["Analytics", "Misty Lake", "Documents"],
+      "lang": ["En", "Es", "Fr"],
+      "main_title": "Defi On Bitcoin Cash",
+      "main_text": "Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of smartBCH",
+      "coin_board":["Price","Total value locked","Volume","Pairs"],
+      "coin_button":"Enter the app"
+    },
+
+    "projects": {
+      "title": "PROJECTS",
+      "title_carousel": "MistSwap",
+      "text_carousel": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit ecsse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros"
+    },
+
+    "token_section":{
+        "title":"Top tokens"
+    },
+   "advantages_section":{
+      "title":"Lorem ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "card_1":{
+          "title":"EARN",
+          "text":"Earn more by providing liquidity and staking, more than any other exchange. 0.25% for providing liquidity 0.05% for holders of xMIST"
+      },
+      "card_2":{
+        "title":"STAKE",
+        "text":"Stake MIST for xMIST and earn fees using the MistBar"
+    },
+    "card_3":{
+        "title":"REDEEM",
+        "text":"Redeem MIST (one-to-one) and DROP (one-to-five) SLP tokens with MIST tokens using Misty Lake."
+    }
+      
+
+   },
+
+    "we_do_section":{
+
+        "title-1":"We are building tools that enable people to interact permissionlessly, without borders.",
+        "title-2":"Only with Bitcoin Cash."
+    },
+    
+    "upcoming": {
+        "title": "UPCOMING",
+        "title_carousel": "MistLend",
+        "text_carousel": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit ecsse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros"
+      },
+      
+    "our_partners":{
+        "title":"Our Partners"
+    },
+
+    "faq_section":{
+
+        "title":"Frequently asked questions",
+         "text":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+         "questions":{
+             "A":"Lorem ipsum dolor sit amet?",
+             "B":"Sed diam nonummy nibh euismod tincidunt ut laoreet?",
+             "C":"Quis nostrud exerci tation ullamcorper suscipit?",
+             "D":"Quis nostrud exerci tation ullamcorper?",
+             "E":"Consectetuer adipiscing elit?",
+             "F":"Duis autem vel eum iriure dolor in hendrerit?"
+         },
+
+         "answers":{
+             "A":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto erat."
+         }
+
+    },
+
+    "footer":{
+
+        "copyright":"Copyright 2021 - All Right Reserved",
+        "center_nav":["Source code", "Docs"],
+        "right_nav":["Analytics", "Misty Lake", "Enter App", "Language"]
+    }
+
+  }
+}

@@ -1,0 +1,36 @@
+.we-do-section{
+     
+     min-height: 74px;
+     background-color: $mist-bg-alt;
+    
+     padding-top: 2rem;
+
+     p{
+         font-family: 'Inter',sans-serif;
+         font-size: 15px;
+         width: 225px;
+         color:white;
+     }
+
+    
+}
+
+@media(min-width:768px){
+
+    .we-do-section{
+
+        min-height: 246px;
+        background-color: $mist-bg-alt;
+        padding-bottom: 4rem;
+      
+   
+        p{
+            font-family: 'Inter',sans-serif;
+            font-size: 48px;
+            width: 90%;
+            color:white;
+        }
+   
+       
+   }
+}

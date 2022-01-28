@@ -1,0 +1,42 @@
+.mist-nav {
+  background-color: transparent;
+  height: 170px;
+  width: 100%;
+  .lang {
+    margin-top: 4.3rem;
+  }
+  @media  (max-width:576px) {
+    .logo {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .logo-letter {
+      width: 67px;
+      height: 20px;
+    }
+    .center-links {
+      margin-top: 4rem;
+    }
+    
+    .lang select {
+      height: 32%;
+      width: 35px;
+    }
+  
+  }
+ 
+  .lang select {
+    height: 32%;
+    
+  }
+
+  .lang select option {
+    color: black;
+  }
+
+  .lang li:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+}

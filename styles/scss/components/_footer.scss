@@ -1,0 +1,25 @@
+footer {
+ min-height: 130px;
+  background-color: $mist-bg-alt;
+  small {
+    font-size: 12px;
+  }
+
+  .contact-links a {
+    color: $cool-dark-green;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .social-icon{
+    width: 30px;
+    height: 30px;
+    background: #07D6A0;
+  }
+
+  .options-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+}
