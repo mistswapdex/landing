@@ -1,0 +1,83 @@
+{
+  "index": {
+    "main_section": {
+      "nav_center": ["Analiticas", "Lago Brumoso", "Documentos"],
+      "lang": ["En", "Es", "Fr"],
+      "main_title": "Defi en efectivo de Bitcoin",
+      "main_text": "Comercia, lanza, apuesta, cultiva, invierte, automatiza, crea en la principal plataforma DeFi de smartBCH",
+      "coin_board":["Precio","Valor total bloqueado","Volumen","Pares"],
+      "coin_button":"Entrar a la app"
+    },
+
+    "projects": {
+      "title": "PROJECTOS",
+      "title_carousel": "MistSwap",
+      "text_carousel": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit ecsse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros"
+    },
+
+    "token_section":{
+        "title":"Top tokens"
+    },
+   "advantages_section":{
+      "title":"Lorem ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "card_1":{
+          "title":"GANAR",
+          "text":"Gane más proporcionando liquidez y participación, más que cualquier otro intercambio. 0,25 % para proporcionar liquidez 0,05 % para titulares de xMIST"
+      },
+      "card_2":{
+        "title":"APOSTAR",
+        "text":"Apueste MIST por xMIST y gane tarifas usando MistBar"
+    },
+    "card_3":{
+        "title":"REDIMIR",
+        "text":"Canjee tokens SLP MIST (uno a uno) y DROP (uno a cinco) con tokens MIST usando Misty Lake."
+    }
+      
+
+   },
+
+    "we_do_section":{
+
+        "title-1":"Estamos construyendo herramientas que permiten a las personas interactuar sin permiso, sin fronteras.",
+        "title-2":"Solo con Bitcoin Cash."
+    },
+    
+    "upcoming": {
+        "title": "PRÓXIMAMENTE",
+        "title_carousel": "MistLend",
+        "text_carousel": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit ecsse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros"
+      },
+      
+    "our_partners":{
+        "title":"Nuestros compañeros"
+    },
+
+    "faq_section":{
+
+        "title":"Preguntas frecuentes",
+         "text":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+         "questions":{
+          "A":"Lorem ipsum dolor sit amet?",
+          "B":"Sed diam nonummy nibh euismod tincidunt ut laoreet?",
+          "C":"Quis nostrud exerci tation ullamcorper suscipit?",
+          "D":"Quis nostrud exerci tation ullamcorper?",
+          "E":"Consectetuer adipiscing elit?",
+          "F":"Duis autem vel eum iriure dolor in hendrerit?"
+         },
+
+         "answers":{
+             "A":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto erat."
+         }
+
+    },
+
+    "footer":{
+
+        "copyright":"Copyright 2021 - Todos los derechos reservados",
+        "center_nav":["Código fuente", "Documentos"],
+        "right_nav":["Analiticas", "Lago brumoso", "Entrar en la aplicación", "Idioma"]
+    }
+
+  }
+}

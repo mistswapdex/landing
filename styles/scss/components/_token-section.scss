@@ -1,0 +1,53 @@
+.token-section {
+  background: linear-gradient(to right, $mist-bg ,#001F20, $mist-bg );;
+  
+  height: 74px;
+  h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 8px;
+    color: $mist-white;
+   
+  }
+
+  .tokens{
+
+    width: 227px;
+
+    img{
+        box-shadow: 0px 0px 15px white;
+        border-radius: 50%;
+        background-color: transparent;
+        width: 25px;
+        height: 25px;
+    }
+  }
+
+
+}
+
+@media(min-width:768px){
+  .token-section {
+  
+    height: 218px;
+    h4 {
+     
+      font-size: 20px;
+   
+     
+    }
+  
+    .tokens{
+  
+      width: 658px;
+  
+      img{
+         width: unset;
+         height: unset;
+      }
+    }
+  
+  
+  }
+  
+  
+}
