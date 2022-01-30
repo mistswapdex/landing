@@ -1,6 +1,6 @@
 import React from "react";
 
-const WeDoSection = () => {
+export default function WeDoSection() {
   return (
     <div className="we-do-section position-relative">
       <div className="max-width">
@@ -19,5 +19,3 @@ const WeDoSection = () => {
     </div>
   );
 };
-
-export default WeDoSection;

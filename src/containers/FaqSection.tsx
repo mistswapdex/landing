@@ -41,7 +41,7 @@ const FaqSection = ({ lang }) => {
                 <i className="bi bi-chevron-right" />
               </li>
             </ul>
-            <div className="answer-box mx-auto scrollspy-example" data-bs-spy="scroll" data-bs-target="#questions" data-bs-offset="0"  tabIndex="0">
+            <div className="answer-box mx-auto scrollspy-example" data-bs-spy="scroll" data-bs-target="#questions" data-bs-offset={0}  tabIndex={0}>
               <p className="answer-text ps-4  text-white mt-4"  id="A">
                 
                 {lang.answers.A}

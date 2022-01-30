@@ -25,7 +25,7 @@ export default function Home(props) {
     <UpcomingSection lang={index.upcoming} />
     <OurPartnersSection lang={index.our_partners} />
     <FaqSection lang={index.faq_section} />
-    <Footer lang={index.footer} />
+    <Footer />
     </div>
   )
 }
