@@ -13,20 +13,20 @@ const Footer = ({ lang }) => {
               <div className="contact-app d-flex flex-column justify-content-center">
                 <div className="contact-icons d-flex justify-content-center">
                   <a href="#" className="me-3">
-                    <img src="/icons/telegram.webp" alt />
+                    <img src="/icons/telegram.webp" alt="Telegram" />
                   </a>
                   <a href="#" className="me-3">
-                    <img src="/icons/twitter.webp" alt />
+                    <img src="/icons/twitter.webp" alt="Twitter" />
                   </a>
                   <a href="#" className="me-3">
-                    <img src="/icons/discord.webp" alt />
+                    <img src="/icons/discord.webp" alt="Discord" />
                   </a>
                   <a
                     href="#"
                     className="social-icon d-flex justify-content-center align-items-center rounded-circle"
                     docs
                   >
-                    <img src="/icons/social.webp" alt />
+                    <img src="/icons/social.webp" alt="Social" />
                   </a>
                 </div>
                 <div className="contact-links text-center mt-3">
