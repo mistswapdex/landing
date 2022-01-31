@@ -1,6 +1,10 @@
 import React from "react";
+import { useLingui } from '@lingui/react'
+import { t } from '@lingui/macro'
 
-const AdvantagesSection = ({ lang }) => {
+export default function AdvantagesSection() {
+  const { i18n } = useLingui()
+
   return (
     <section className="container-fluid advantages-section pt-5 ">
       <div className="max-width position-relative ">
@@ -10,8 +14,8 @@ const AdvantagesSection = ({ lang }) => {
           alt="middle-icon-mist"
         />
         <div className="mx-project as-text d-flex flex-column">
-          <h2 className="text-center fw-bolder mt-5">{lang.title}</h2>
-          <p className="text-center mx-auto">{lang.text}</p>
+          <h2 className="text-center fw-bolder mt-5">{i18n._(t`Lorem Ipsum`)}</h2>
+          <p className="text-center mx-auto">{i18n._(t`Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.`)}</p>
         </div>
         <div className="mx-cards">
           <div className=" w-100 d-flex flex-column  flex-xl-row justify-content-between ">
@@ -22,8 +26,8 @@ const AdvantagesSection = ({ lang }) => {
                   <img src="/icons/earn-icon.webp" alt="icon-card-box" />
                 </div>
                 <div className="card-box-text d-flex flex-column justify-content-end align-items-center align-self-center">
-                  <h3 className="text-center">{lang.card_1.title}</h3>
-                  <p className="text-center">{lang.card_1.text}</p>
+                  <h3 className="text-center">{i18n._(t`EARN`)}</h3>
+                  <p className="text-center">{i18n._(t`Earn more by providing liquidity and staking, more than any other exchange. 0.25% for providing liquidity 0.05% for holders of xMIST`)}</p>
                 </div>
               </div>
             </div>
@@ -34,8 +38,8 @@ const AdvantagesSection = ({ lang }) => {
                   <img src="/icons/stake-icon.webp" alt="icon-card-box" />
                 </div>
                 <div className="card-box-text d-flex flex-column justify-content-end align-items-center align-self-center">
-                  <h3 className="text-center">{lang.card_2.title}</h3>
-                  <p className="text-center">{lang.card_2.text}</p>
+                  <h3 className="text-center">{i18n._(t`STAKE`)}</h3>
+                  <p className="text-center">{i18n._(t`Stake MIST for xMIST and earn fees using the MistBar`)}</p>
                 </div>
               </div>
             </div>
@@ -46,8 +50,8 @@ const AdvantagesSection = ({ lang }) => {
                   <img src="/icons/redeem-icon.webp" alt="icon-card-box" />
                 </div>
                 <div className="card-box-text d-flex flex-column justify-content-end align-items-center align-self-center">
-                  <h3 className="text-center mt-1">{lang.card_3.title}</h3>
-                  <p className="text-center">{lang.card_3.text}</p>
+                  <h3 className="text-center mt-1">{i18n._(t`REDEEM`)}</h3>
+                  <p className="text-center">{i18n._(t`Redeem MIST (one-to-one) and DROP (one-to-five) SLP tokens with MIST tokens using Misty Lake.`)}</p>
                 </div>
               </div>
             </div>
@@ -56,6 +60,4 @@ const AdvantagesSection = ({ lang }) => {
       </div>
     </section>
   );
-};
-
-export default AdvantagesSection;
+}
