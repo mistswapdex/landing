@@ -42,17 +42,17 @@ export default function MainSection() {
             </ul>
             <ul className="nav center-links d-none d-lg-flex mt-5 me-5 justify-content-between">
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="https://analytics.mistswap.fi">
                   {i18n._(t`Analytics`)}
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="https://lake.mistswap.fi">
                   {i18n._(t`Misty Lake`)}
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="https://docs.mistswap.fi">
                   {i18n._(t`Documentation`)}
                 </a>
               </li>
@@ -113,14 +113,14 @@ export default function MainSection() {
                 <span className="ms-3  desc-price text-success">{i18n._(t`Pairs`)}</span>
                 <div className="ms-3 price-coin">$00.0</div>
               </div>
-              <a href="#" className="btn btn-cool text-white rounded-pill">
+              <a href="https://app.mistswap.fi" className="btn btn-cool text-white rounded-pill">
                 {i18n._(t`Enter App`)}
               </a>
             </li>
           </ul>
           
           {/*BUTTON RESPONSIVE*/}
-          <a href="#" className="btn btn-cool mx-auto d-md-none text-white rounded-pill">
+          <a href="https://app.mistswap.fi" className="btn btn-cool mx-auto d-md-none text-white rounded-pill">
             {i18n._(t`Enter App`)}
           </a>
         </div>
